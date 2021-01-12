@@ -5,12 +5,22 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/index.scss ./dist/obsidian.css",
+    "watch": "npm-watch build",
     "lint:fix": "prettier -w ./src",
     "lint:check": "prettier -c ./src"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "scss"
+    }
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "npm-watch": "^0.7.0",
     "sass": "^1.26.10"
   },
   "devDependencies": {
