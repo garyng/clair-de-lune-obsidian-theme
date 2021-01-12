@@ -15,6 +15,10 @@
     width: 25px !important;
   }
 
+  .CodeMirror-guttermarker-subtle {
+    color: $text-dark !important;
+  }
+
   .cm-formatting {
     color: $indigo !important;
   }
