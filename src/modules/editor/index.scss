@@ -15,9 +15,14 @@
     width: 25px !important;
   }
 
-  .cm-formatting,
-  .CodeMirror-foldmarker {
+  .cm-formatting {
     color: $indigo !important;
+  }
+
+  .CodeMirror-foldmarker {
+    color: var(--text-normal);
+    border: 1px solid $text-dark;
+    background-color: var(--text-highlight-bg);
   }
 
   .cm-header {
