@@ -29,10 +29,6 @@
     background-color: var(--text-highlight-bg);
   }
 
-  .cm-header {
-    color: $yellow;
-  }
-
   .cm-header-1,
   .cm-header-2,
   .cm-header-3,
@@ -43,34 +39,58 @@
     line-height: 1.5em;
   }
 
-  .cm-header-1, .cm-header-1.cm-inline-code {
+  .cm-header-1 {
     font-size: 180%;
+    color: $light-red;
+  }
+
+  .cm-header-2 {
+    font-size: 160%;
     color: $yellow;
   }
 
-  .cm-header-2, .cm-header-2.cm-inline-code {
-    font-size: 160%;
-    color: $green;
-  }
-
-  .cm-header-3, .cm-header-3.cm-inline-code {
+  .cm-header-3 {
     font-size: 140%;
     color: $teal;
   }
 
-  .cm-header-4, .cm-header-4.cm-inline-code {
+  .cm-header-4 {
     font-size: 130%;
     color: $cyan;
   }
 
-  .cm-header-5, .cm-header-5.cm-inline-code {
+  .cm-header-5 {
     font-size: 120%;
     color: $aqua;
   }
 
-  .cm-header-6, .cm-header-6.cm-inline-code {
+  .cm-header-6 {
     font-size: 110%;
     color: $purple;
+  }
+
+  .cm-header-1.cm-inline-code {
+    font-size: 180%;
+  }
+
+  .cm-header-2.cm-inline-code {
+    font-size: 160%;
+  }
+
+  .cm-header-3.cm-inline-code {
+    font-size: 140%;
+  }
+
+  .cm-header-4.cm-inline-code {
+    font-size: 130%;
+  }
+
+  .cm-header-5.cm-inline-code {
+    font-size: 120%;
+  }
+
+  .cm-header-6.cm-inline-code {
+    font-size: 110%;
   }
 
   .cm-formatting-link,
